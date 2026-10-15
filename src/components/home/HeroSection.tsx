@@ -77,14 +77,38 @@ export default function HeroSection() {
       <div className="absolute inset-0 profile-dots-bg pointer-events-none" />
       <div className="absolute -top-40 -left-40 w-96 h-96 bg-[#d7a138]/10 rounded-full blur-3xl pointer-events-none" />
 
+      {/* Architectural Giant Monogram Watermark */}
+      <div className="absolute top-1/2 -translate-y-1/2 left-4 lg:left-24 w-80 h-80 sm:w-96 sm:h-96 lg:w-[460px] lg:h-[460px] opacity-[0.035] pointer-events-none select-none z-0">
+        <Image
+          src="/images/logo/logo_emblem_hd.png"
+          alt="Tasheed Monogram Watermark"
+          fill
+          className="object-contain"
+        />
+      </div>
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
           
           {/* Right Column: Alluring Copy & Narrative (7 cols) */}
           <div className="lg:col-span-7 text-right">
-            <SectionBadge className="mb-6 text-xs sm:text-sm">
-              دار التصميم والتنفيذ الإنشائي الفاخر | مؤسسة التشييد
-            </SectionBadge>
+            {/* Presidential Brand Crest */}
+            <div className="flex flex-wrap items-center gap-3 sm:gap-4 mb-6">
+              <div className="relative h-12 w-36 sm:h-14 sm:w-44 shrink-0 transition-transform hover:scale-105">
+                <Image
+                  src="/images/logo/logo_full_hd.png"
+                  alt="شعار مؤسسة التشييد المختلف"
+                  fill
+                  sizes="(max-width: 640px) 144px, 176px"
+                  className="object-contain"
+                  priority
+                />
+              </div>
+              <div className="h-8 w-px bg-[#d7a138]/40 hidden sm:block" />
+              <SectionBadge className="mb-0 text-xs sm:text-sm">
+                دار التصميم والتنفيذ الإنشائي الفاخر
+              </SectionBadge>
+            </div>
 
             {/* Irresistible Headline */}
             <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black text-[#1b2026] leading-[1.2] tracking-tight">

@@ -44,7 +44,16 @@ export default function AboutPage() {
       {/* Identity & Legal Data Card */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-20">
         <div className="bg-white p-8 sm:p-12 rounded-3xl border-2 border-[#d7a138]/30 shadow-xl">
-          <div className="text-center max-w-xl mx-auto mb-8">
+          <div className="text-center max-w-xl mx-auto mb-8 flex flex-col items-center">
+            <div className="relative w-48 sm:w-56 h-14 sm:h-16 mb-4">
+              <Image
+                src="/images/logo/logo_full_hd.png"
+                alt="شعار مؤسسة التشييد المختلف للمقاولات العامة"
+                fill
+                className="object-contain"
+                sizes="224px"
+              />
+            </div>
             <h2 className="text-xl sm:text-2xl font-black text-[#1b2026]">
               البيانات الرسمية والاعتمادات النظامية
             </h2>

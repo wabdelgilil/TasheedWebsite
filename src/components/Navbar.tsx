@@ -40,23 +40,16 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-3 group">
-            <div className="relative h-12 w-32 sm:h-14 sm:w-40 bg-white rounded-xl p-1.5 shadow-sm border border-[#d7a138]/40 flex items-center justify-center transition-transform group-hover:scale-105">
+          <Link href="/" className="flex items-center group py-0.5" aria-label="الرئيسية - مؤسسة التشييد المختلف للمقاولات العامة">
+            <div className="relative h-13 w-40 sm:h-16 sm:w-52 md:h-18 md:w-56 lg:h-20 lg:w-64 transition-transform duration-300 group-hover:scale-105">
               <Image
-                src="/images/logo/logo.png"
-                alt="شعار مؤسسة التشييد المختلف"
+                src="/images/logo/logo_full_hd.png"
+                alt="شعار مؤسسة التشييد المختلف للمقاولات العامة"
                 fill
-                className="object-contain p-1"
+                sizes="(max-width: 640px) 160px, (max-width: 768px) 224px, 256px"
+                className="object-contain"
                 priority
               />
-            </div>
-            <div className="hidden lg:block text-right">
-              <span className="block text-sm font-black text-[#d7a138] leading-tight">
-                التشييد المختلف
-              </span>
-              <span className="block text-[11px] text-[#6d7277] font-medium">
-                للمقاولات العامة
-              </span>
             </div>
           </Link>
 

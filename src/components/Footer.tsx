@@ -11,11 +11,12 @@ export default function Footer() {
           
           {/* Brand Info */}
           <div className="space-y-4">
-            <div className="relative h-14 w-40 bg-white rounded-xl p-2 shadow-sm border border-[#d7a138]/40 flex items-center justify-center">
+            <div className="relative h-18 w-56 sm:h-20 sm:w-64 bg-white/95 backdrop-blur-sm rounded-2xl p-2.5 shadow-md border border-[#d7a138]/40 flex items-center justify-center transition-transform hover:scale-105">
               <Image
-                src="/images/logo/logo.png"
-                alt="شعار مؤسسة التشييد المختلف"
+                src="/images/logo/logo_full_hd.png"
+                alt="شعار مؤسسة التشييد المختلف للمقاولات العامة"
                 fill
+                sizes="(max-width: 640px) 224px, 256px"
                 className="object-contain p-1"
               />
             </div>
