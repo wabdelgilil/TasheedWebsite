@@ -97,7 +97,7 @@ export default function AboutPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-20">
         <div className="text-center max-w-2xl mx-auto mb-12">
           <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#d7a138]/10 text-[#b88628] text-xs font-bold mb-2">
-            <span>⭐</span>
+            <Target className="w-3.5 h-3.5 text-[#d7a138]" />
             <span>ركائز النجاح التشغيلي</span>
           </div>
           <h2 className="text-2xl sm:text-3xl font-black text-[#1b2026]">

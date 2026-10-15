@@ -11,8 +11,8 @@ export default function FeaturedDestinations() {
       client: "Sheraton Obhur Resort",
       location: "جدة - أبحر الشمالية",
       highlight: "أعمال خشبية مصنعة خصيصاً للغرف الفندقية الفاخرة وصالة طعام المنتجع والأثاث المخصص",
-      image: "/images/projects/sheraton-resort/sheraton-resort-1.jpeg",
-      tag: "ضيافة فاخرة ⭐",
+      image: "/images/projects/sheraton-resort/sheraton-resort-dining-hall-greenery-lattice.jpeg",
+      tag: "ضيافة فاخرة 🏨",
       badgeBg: "bg-amber-100 text-amber-900 border-amber-300"
     },
     {
@@ -23,7 +23,7 @@ export default function FeaturedDestinations() {
       location: "تبوك - المملكة العربية السعودية",
       area: "4,000 م²",
       highlight: "هيكل معدني عملاق، دور ميزانين 1,400 م²، مصاعد وسلالم كهربائية، وتشطيبات معمارية تجعل تجربة التسوق استثنائية",
-      image: "/images/projects/alrugaib-tabuk/alrugaib-tabuk-1.jpeg",
+      image: "/images/projects/alrugaib-tabuk/alrugaib-tabuk-grand-entrance-facade.jpeg",
       tag: "معارض كبرى 🏬",
       badgeBg: "bg-blue-100 text-blue-900 border-blue-300"
     },
@@ -34,7 +34,7 @@ export default function FeaturedDestinations() {
       client: "Coastline LLC",
       location: "جدة - واجهة البحر",
       highlight: "تأسيس وتشطيب متكامل للصالات المفتوحة، شبكات الشفط والتكييف الصناعي، وغرف التبريد المعزولة وفق أعلى معايير السلامة",
-      image: "/images/projects/kokiyan-beach/kokiyan-beach-1.jpeg",
+      image: "/images/projects/kokiyan-beach/kokiyan-beach-panoramic-seaside-dining-hall.jpeg",
       tag: "مطاعم وضيافة 🍽️",
       badgeBg: "bg-emerald-100 text-emerald-900 border-emerald-300"
     },
@@ -46,7 +46,7 @@ export default function FeaturedDestinations() {
       location: "جدة - المملكة العربية السعودية",
       area: "4,600 م²",
       highlight: "إعادة تأهيل معمارية شاملة: أرضيات رخامية، ديكورات خشبية دافئة، وأنظمة إنارة مدروسة تبرز جمال المعروضات",
-      image: "/images/projects/ashley-jeddah/ashley-jeddah-1.jpeg",
+      image: "/images/projects/ashley-jeddah/ashley-jeddah-illuminated-flagship-facade.jpeg",
       tag: "تجزئة عالمية 🛋️",
       badgeBg: "bg-purple-100 text-purple-900 border-purple-300"
     }

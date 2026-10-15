@@ -57,7 +57,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/restaurants" className="hover:text-[#d7a138] transition-colors text-amber-300 font-bold">
-                  قطاع المطاعم والكافيهات ⭐
+                  قطاع المطاعم والكافيهات 🍽️
                 </Link>
               </li>
               <li>
