@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowLeft, MessageCircle, Sparkles, ChevronRight, ChevronLeft, MapPin } from "lucide-react";
+import { ArrowLeft, MessageCircle, ChevronRight, ChevronLeft, MapPin } from "lucide-react";
 import { COMPANY_INFO } from "@/data/projects";
 
 const HERO_SLIDES = [
@@ -83,7 +83,7 @@ export default function HeroSection() {
           <div className="lg:col-span-7 text-right">
             {/* Elegant Tag */}
             <div className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-[#d7a138]/10 border border-[#d7a138]/30 text-[#b88628] text-xs sm:text-sm font-bold mb-6">
-              <Sparkles className="w-4 h-4 text-[#d7a138]" />
+              <span className="w-2 h-2 rounded-full bg-[#d7a138] inline-block"></span>
               <span>دار التصميم والتنفيذ الإنشائي الفاخر | مؤسسة التشييد</span>
             </div>
 

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { PROJECTS, COMPANY_INFO } from "@/data/projects";
-import { UtensilsCrossed, CheckCircle2, Flame, Snowflake, Sparkles, Compass, ArrowLeft, Phone, Calendar } from "lucide-react";
+import { UtensilsCrossed, CheckCircle2, Flame, Snowflake, Hammer, Compass, ArrowLeft, Phone, Calendar } from "lucide-react";
 
 export default function RestaurantsPage() {
   const restaurantProjects = PROJECTS.filter((p) => p.category === "restaurants-cafes");
@@ -22,7 +22,7 @@ export default function RestaurantsPage() {
     {
       title: "أعمال النجارة والديكور الخشبي المخصص",
       desc: "تصنيع الكاونترات، بارات القهوة، طاولات الطعام الفاخرة، كبائن الجلوس (Booths)، والأسقف الخشبية بتشطيبات حرفية عالية المتانة تدوم طويلاً.",
-      icon: Sparkles,
+      icon: Hammer,
       gradient: "from-amber-700 via-amber-600 to-[#d7a138] text-white shadow-amber-900/20",
     },
     {
@@ -78,7 +78,7 @@ export default function RestaurantsPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="text-center max-w-2xl mx-auto mb-12">
           <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#d7a138]/10 text-[#b88628] text-xs font-bold mb-2">
-            <span>✨</span>
+            <span className="w-2 h-2 rounded-full bg-[#d7a138] inline-block"></span>
             <span>معايير تشغيلية عالمية</span>
           </div>
           <h2 className="text-2xl sm:text-3xl font-extrabold text-[#1b2026]">
@@ -158,7 +158,7 @@ export default function RestaurantsPage() {
                   <div className="space-y-1.5 pt-3 border-t border-[#6d7277]/15">
                     {p.scope.map((item, i) => (
                       <div key={i} className="text-xs text-[#57606a] flex items-center gap-2">
-                        <span className="text-[#d7a138] font-bold text-xs">✨</span>
+                        <span className="w-4 h-4 rounded-full bg-[#d7a138]/20 text-[#b88628] flex items-center justify-center text-[10px] shrink-0 font-bold">✓</span>
                         <span>{item}</span>
                       </div>
                     ))}

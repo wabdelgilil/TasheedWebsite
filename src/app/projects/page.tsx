@@ -182,7 +182,7 @@ function ProjectsContent() {
                     </span>
                     {project.scope.map((item, i) => (
                       <div key={i} className="text-xs text-[#3e454f] flex items-start gap-2">
-                        <span className="text-[#d7a138] text-xs font-bold mt-0.5">✨</span>
+                        <span className="w-4 h-4 rounded-full bg-[#d7a138]/20 text-[#b88628] flex items-center justify-center text-[10px] shrink-0 font-bold mt-0.5">✓</span>
                         <span>{item}</span>
                       </div>
                     ))}
@@ -261,7 +261,7 @@ function ProjectsContent() {
                 <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-[#3e454f]">
                   {selectedProject.scope.map((s, i) => (
                     <li key={i} className="flex items-center gap-2">
-                      <span className="text-[#d7a138] font-bold">✨</span>
+                      <span className="w-4 h-4 rounded-full bg-[#d7a138]/20 text-[#b88628] flex items-center justify-center text-[10px] shrink-0 font-bold">✓</span>
                       <span>{s}</span>
                     </li>
                   ))}
