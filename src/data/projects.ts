@@ -32,13 +32,14 @@ export const PROJECTS: Project[] = [
       "تنفيذ كافة الأعمال المعمارية والكهروميكانيكية"
     ],
     description: "مشروع صرح تجاري متكامل لمفروشات الرقيب شمل التأسيس الإنشائي من القواعد الخرسانية والهيكل المعدني وحتى التشطيب الفاخر وتركيب أنظمة الحركة الميكانيكية.",
-    image: "/images/projects/alrugaib-tabuk/alrugaib-tabuk-facade-main-entrance.jpeg",
+    image: "/images/projects/alrugaib-tabuk/alrugaib-tabuk-1.jpeg",
     gallery: [
-      "/images/projects/alrugaib-tabuk/alrugaib-tabuk-facade-main-entrance.jpeg",
-      "/images/projects/alrugaib-tabuk/alrugaib-tabuk-reinforced-steel-rebar.jpeg",
-      "/images/projects/alrugaib-tabuk/alrugaib-tabuk-steel-structure-framework.jpeg",
-      "/images/projects/alrugaib-tabuk/alrugaib-tabuk-mezzanine-floor-installation.jpeg",
-      "/images/projects/alrugaib-tabuk/alrugaib-tabuk-escalator-civil-structure.jpeg"
+      "/images/projects/alrugaib-tabuk/alrugaib-tabuk-1.jpeg",
+      "/images/projects/alrugaib-tabuk/alrugaib-tabuk-2.jpeg",
+      "/images/projects/alrugaib-tabuk/alrugaib-tabuk-3.jpeg",
+      "/images/projects/alrugaib-tabuk/alrugaib-tabuk-4.jpeg",
+      "/images/projects/alrugaib-tabuk/alrugaib-tabuk-5.jpeg",
+      "/images/projects/alrugaib-tabuk/alrugaib-tabuk-6.jpeg"
     ],
     isFeatured: true,
     status: "completed"
@@ -59,12 +60,13 @@ export const PROJECTS: Project[] = [
       "تركيب اللوحات الإعلانية والواجهات الخارجية"
     ],
     description: "إعادة تأهيل وتشطيب شامل لمعرض آشلي للأثاث وفق أرقى المواصفات العالمية للعلامة التجارية لتقديم تجربة تسوق راقية.",
-    image: "/images/projects/ashley-jeddah/ashley-jeddah-luxury-furniture-showroom.jpeg",
+    image: "/images/projects/ashley-jeddah/ashley-jeddah-1.jpeg",
     gallery: [
-      "/images/projects/ashley-jeddah/ashley-jeddah-luxury-furniture-showroom.jpeg",
-      "/images/projects/ashley-jeddah/ashley-jeddah-custom-woodwork-partitions.jpeg",
-      "/images/projects/ashley-jeddah/ashley-jeddah-architectural-lighting-hvac.jpeg",
-      "/images/projects/ashley-jeddah/ashley-jeddah-living-displays-flooring.jpeg"
+      "/images/projects/ashley-jeddah/ashley-jeddah-1.jpeg",
+      "/images/projects/ashley-jeddah/ashley-jeddah-2.jpeg",
+      "/images/projects/ashley-jeddah/ashley-jeddah-3.jpeg",
+      "/images/projects/ashley-jeddah/ashley-jeddah-4.jpeg",
+      "/images/projects/ashley-jeddah/ashley-jeddah-5.jpeg"
     ],
     isFeatured: true,
     status: "completed"
@@ -84,11 +86,12 @@ export const PROJECTS: Project[] = [
       "صيانة وتمديد شبكات التكييف والإنارة الفاخرة"
     ],
     description: "تجديد وتطوير معرض مفروشات الرقيب في العاصمة الرياض وتجهيز صالات العرض الداخلية بلمسات خشبية راقية.",
-    image: "/images/projects/alrugaib-riyadh/alrugaib-riyadh-renovation-display-hall.jpeg",
+    image: "/images/projects/alrugaib-riyadh/alrugaib-riyadh-1.jpeg",
     gallery: [
-      "/images/projects/alrugaib-riyadh/alrugaib-riyadh-renovation-display-hall.jpeg",
-      "/images/projects/alrugaib-riyadh/alrugaib-riyadh-woodwork-decorative-features.jpeg",
-      "/images/projects/alrugaib-riyadh/alrugaib-riyadh-flooring-wall-finishing.jpeg"
+      "/images/projects/alrugaib-riyadh/alrugaib-riyadh-1.jpeg",
+      "/images/projects/alrugaib-riyadh/alrugaib-riyadh-2.jpeg",
+      "/images/projects/alrugaib-riyadh/alrugaib-riyadh-3.jpeg",
+      "/images/projects/alrugaib-riyadh/alrugaib-riyadh-4.jpeg"
     ],
     isFeatured: true,
     status: "completed"
@@ -108,11 +111,12 @@ export const PROJECTS: Project[] = [
       "تنفيذ كافة الأعمال المعمارية والكهروميكانيكية"
     ],
     description: "تأسيس وتشطيب مبنى معرض آشلي للأثاث بمكة المكرمة بأساسات قوية وأعمال ميزانين وربط كهروميكانيكي احترافي.",
-    image: "/images/projects/ashley-makkah-1/ashley-makkah-concrete-structure-pouring.jpeg",
+    image: "/images/projects/ashley-makkah-1/ashley-makkah-1-1.jpeg",
     gallery: [
-      "/images/projects/ashley-makkah-1/ashley-makkah-concrete-structure-pouring.jpeg",
-      "/images/projects/ashley-makkah-1/ashley-makkah-foundation-soil-treatment.jpeg",
-      "/images/projects/ashley-makkah-1/ashley-makkah-mezzanine-construction.jpeg"
+      "/images/projects/ashley-makkah-1/ashley-makkah-1-1.jpeg",
+      "/images/projects/ashley-makkah-1/ashley-makkah-1-2.jpeg",
+      "/images/projects/ashley-makkah-1/ashley-makkah-1-3.jpeg",
+      "/images/projects/ashley-makkah-1/ashley-makkah-1-4.jpeg"
     ],
     isFeatured: true,
     status: "completed"
@@ -131,7 +135,7 @@ export const PROJECTS: Project[] = [
       "الربط الإنشائي والتشغيلي مع المرحلة الأولى"
     ],
     description: "توسعة صالات العرض من خلال إنشاء مبنى إضافي جديد لزيادة الطاقة الاستيعابية للمعرض.",
-    image: "/images/projects/ashley-makkah-2/ashley-makkah-expansion-building-framing.jpeg",
+    image: "/images/projects/ashley-makkah-2/ashley-makkah-2-1.jpeg",
     status: "in-progress"
   },
   {
@@ -148,7 +152,7 @@ export const PROJECTS: Project[] = [
       "تنفيذ الأعمال المعمارية والكهروميكانيكية الشاملة"
     ],
     description: "تنفيذ صرح تجاري ضخم بمواصفات قياسية لمنطقة الشرقية لخدمة عملاء آشلي للأثاث.",
-    image: "/images/projects/ashley-dammam/ashley-dammam-steel-structure-erection.jpeg",
+    image: "/images/projects/ashley-dammam/ashley-dammam-1.jpeg",
     status: "in-progress"
   },
   {
@@ -165,10 +169,14 @@ export const PROJECTS: Project[] = [
       "تركيب الديكورات الجدارية والإنارة التقنية"
     ],
     description: "تنفيذ متكامل لمعرض التكنولوجيا والملاحة العالمي جارمن بطابع عصري يعبر عن دقة العلامة التجارية.",
-    image: "/images/projects/garmin-ksa/garmin-ksa-flagship-showroom-fitout.jpeg",
+    image: "/images/projects/garmin-ksa/garmin-ksa-1.jpeg",
     gallery: [
-      "/images/projects/garmin-ksa/garmin-ksa-flagship-showroom-fitout.jpeg",
-      "/images/projects/garmin-ksa/garmin-ksa-tech-display-stands-lighting.jpeg"
+      "/images/projects/ashley-dammam/ashley-dammam-1.jpeg",
+      "/images/projects/ashley-dammam/ashley-dammam-2.jpeg",
+      "/images/projects/ashley-dammam/ashley-dammam-3.jpeg",
+      "/images/projects/ashley-dammam/ashley-dammam-4.jpeg",
+      "/images/projects/ashley-dammam/ashley-dammam-5.jpeg",
+      "/images/projects/ashley-dammam/ashley-dammam-6.jpeg"
     ],
     status: "completed"
   },
@@ -186,7 +194,7 @@ export const PROJECTS: Project[] = [
       "أنظمة الإنارة التوجيهية وتوزيع المنتجات"
     ],
     description: "متجر راقٍ يركز على أفضل استغلال للمساحة وتوفير حركة سلسة للمتسوقين.",
-    image: "/images/projects/alsannat-luggage/alsannat-luggage-retail-store-showcase.jpeg",
+    image: "/images/projects/alsannat-luggage/alsannat-luggage-1.jpeg",
     status: "completed"
   },
 
@@ -206,11 +214,11 @@ export const PROJECTS: Project[] = [
       "الأرضيات الخرسانية المسلحة والتشطيبات الصناعية"
     ],
     description: "مشروع صناعي عملاق بمساحة 25 ألف متر مربع، شمل بنية تحتية صناعية ضخمة وخطوط إنتاج وتخزين وفق معايير هيئة المدن الصناعية (مدن).",
-    image: "/images/projects/thaob-alami/thaob-alami-factory-industrial-hangar.jpeg",
+    image: "/images/projects/thaob-alami/thaob-alami-1.jpeg",
     gallery: [
-      "/images/projects/thaob-alami/thaob-alami-factory-industrial-hangar.jpeg",
-      "/images/projects/thaob-alami/thaob-alami-factory-firefighting-piping.jpeg",
-      "/images/projects/thaob-alami/thaob-alami-factory-concrete-reinforced-floor.jpeg"
+      "/images/projects/alsannat-luggage/alsannat-luggage-1.jpeg",
+      "/images/projects/alsannat-luggage/alsannat-luggage-2.jpeg",
+      "/images/projects/alsannat-luggage/alsannat-luggage-3.jpeg"
     ],
     isFeatured: true,
     status: "completed"
@@ -232,11 +240,11 @@ export const PROJECTS: Project[] = [
       "توريد وتركيب أبواب التحميل السريعة (Dock Doors)"
     ],
     description: "مركز لوجستي وتخزيني ضخم يخدم عمليات التوزيع والتخزين لمفروشات الرقيب بالمنطقة الغربية.",
-    image: "/images/projects/alrugaib-warehouse/alrugaib-warehouse-heavy-duty-racking-epoxy.jpeg",
+    image: "/images/projects/alrugaib-warehouse/alrugaib-warehouse-1.jpeg",
     gallery: [
-      "/images/projects/alrugaib-warehouse/alrugaib-warehouse-heavy-duty-racking-epoxy.jpeg",
-      "/images/projects/alrugaib-warehouse/alrugaib-warehouse-epoxy-flooring-coating.jpeg",
-      "/images/projects/alrugaib-warehouse/alrugaib-warehouse-industrial-highbay-lighting.jpeg"
+      "/images/projects/alrugaib-warehouse/alrugaib-warehouse-1.jpeg",
+      "/images/projects/alrugaib-warehouse/alrugaib-warehouse-2.jpeg",
+      "/images/projects/alrugaib-warehouse/alrugaib-warehouse-3.jpeg"
     ],
     isFeatured: true,
     status: "completed"
@@ -255,7 +263,7 @@ export const PROJECTS: Project[] = [
       "أنظمة السلامة والتهوية المركزية"
     ],
     description: "مستودع متطور لحفظ وتوزيع النظارات والمنتجات البصرية بأعلى درجات التنظيم والتحكم البيئي.",
-    image: "/images/projects/eyewa-warehouse/eyewa-warehouse-optical-storage-racks.jpeg",
+    image: "/images/projects/eyewa-warehouse/eyewa-warehouse-1.jpeg",
     status: "completed"
   },
 
@@ -274,10 +282,13 @@ export const PROJECTS: Project[] = [
       "توريد وتفصيل الأثاث المكتبي وقاعات الاجتماعات"
     ],
     description: "بيئة عمل إدارية تفاعلية حديثة تلبي متطلبات مقرات الشركات الإقليمية الرائدة في التجارة الإلكترونية.",
-    image: "/images/projects/eyewa-hq/eyewa-hq-modern-open-workspace.jpeg",
+    image: "/images/projects/eyewa-hq/eyewa-hq-1.jpeg",
     gallery: [
-      "/images/projects/eyewa-hq/eyewa-hq-modern-open-workspace.jpeg",
-      "/images/projects/eyewa-hq/eyewa-hq-executive-boardroom-fitout.jpeg"
+      "/images/projects/eyewa-warehouse/eyewa-warehouse-1.jpeg",
+      "/images/projects/eyewa-warehouse/eyewa-warehouse-2.jpeg",
+      "/images/projects/eyewa-warehouse/eyewa-warehouse-3.jpeg",
+      "/images/projects/eyewa-warehouse/eyewa-warehouse-4.jpeg",
+      "/images/projects/eyewa-warehouse/eyewa-warehouse-5.jpeg"
     ],
     isFeatured: true,
     status: "completed"
@@ -296,7 +307,7 @@ export const PROJECTS: Project[] = [
       "تنفيذ كهروميكانيك ونقاط بيع متكاملة"
     ],
     description: "معرض تجاري فاخر داخل أحد أكبر مولات جدة يتميز بالبساطة والجاذبية البصرية.",
-    image: "/images/projects/eyewa-yasmin/eyewa-yasmin-mall-storefront-facade.jpeg",
+    image: "/images/projects/eyewa-yasmin/eyewa-yasmin-1.jpeg",
     status: "completed"
   },
   {
@@ -313,7 +324,7 @@ export const PROJECTS: Project[] = [
       "تقسيم المساحات وقاعات الاستشارة"
     ],
     description: "مقر مكتب استشاري هندسي صمم ونفذ بأعلى درجات الدقة والأناقة الوظيفية.",
-    image: "/images/projects/bme-consulting/bme-consulting-engineering-office-reception.jpeg",
+    image: "/images/projects/bme-consulting/bme-consulting-1.jpeg",
     status: "completed"
   },
   {
@@ -330,7 +341,7 @@ export const PROJECTS: Project[] = [
       "التشطيبات المعمارية الدقيقة للمقرات الكبرى"
     ],
     description: "لمسات نجارة وأخشاب احترافية تبرز براعة ورش التشييد في تنفيذ الأعمال الخشبية الفخمة.",
-    image: "/images/projects/sohair/sohair-luxury-solid-wood-door-crafting.jpeg",
+    image: "/images/projects/sohair/sohair-1.jpeg",
     status: "completed"
   },
   {
@@ -347,7 +358,7 @@ export const PROJECTS: Project[] = [
       "ديكورات داخلية خاصة"
     ],
     description: "تنفيذ فيلا خاصة بأسلوب عصري يجمع بين الراحة والفخامة المعمارية.",
-    image: "/images/projects/villa-tala/villa-tala-contemporary-living-hall-finishing.jpeg",
+    image: "/images/projects/villa-tala/villa-tala-1.jpeg",
     status: "completed"
   },
 
@@ -367,10 +378,16 @@ export const PROJECTS: Project[] = [
       "تصنيع وتوريد الأثاث الفندقي الراقي"
     ],
     description: "مشروع ضيافة عالمي في واجهة أبحر البحرية، شمل تصنيع أرقى الديكورات الخشبية والأثاث المخصص بالتعاون مع كبرى الجهات.",
-    image: "/images/projects/sheraton-resort/sheraton-obhur-hotel-suite-custom-woodwork.jpeg",
+    image: "/images/projects/sheraton-resort/sheraton-resort-1.jpeg",
     gallery: [
-      "/images/projects/sheraton-resort/sheraton-obhur-hotel-suite-custom-woodwork.jpeg",
-      "/images/projects/sheraton-resort/sheraton-obhur-resort-dining-hall-furniture.jpeg"
+      "/images/projects/villa-tala/villa-tala-1.jpeg",
+      "/images/projects/villa-tala/villa-tala-2.jpeg",
+      "/images/projects/villa-tala/villa-tala-3.jpeg",
+      "/images/projects/villa-tala/villa-tala-4.jpeg",
+      "/images/projects/villa-tala/villa-tala-5.jpeg",
+      "/images/projects/villa-tala/villa-tala-6.jpeg",
+      "/images/projects/villa-tala/villa-tala-7.jpeg",
+      "/images/projects/villa-tala/villa-tala-8.jpeg"
     ],
     isFeatured: true,
     status: "completed"
@@ -390,12 +407,16 @@ export const PROJECTS: Project[] = [
       "تجهيز المطبخ ومسارات التبريد والطهي"
     ],
     description: "وجهة ساحلية استثنائية جهزت بأحدث تقنيات المطابخ والمطاعم وغرف التبريد والشفط المتوافقة مع أعلى اشتراطات الأمان.",
-    image: "/images/projects/kokiyan-beach/kokiyan-beach-panoramic-seaside-dining.jpeg",
+    image: "/images/projects/kokiyan-beach/kokiyan-beach-1.jpeg",
     gallery: [
-      "/images/projects/kokiyan-beach/kokiyan-beach-panoramic-seaside-dining.jpeg",
-      "/images/projects/kokiyan-beach/kokiyan-beach-commercial-kitchen-exhaust-hoods.jpeg",
-      "/images/projects/kokiyan-beach/kokiyan-beach-industrial-cold-room-storage.jpeg",
-      "/images/projects/kokiyan-beach/kokiyan-beach-exterior-coastal-facade-pergola.jpeg"
+      "/images/projects/kokiyan-beach/kokiyan-beach-1.jpeg",
+      "/images/projects/kokiyan-beach/kokiyan-beach-2.jpeg",
+      "/images/projects/kokiyan-beach/kokiyan-beach-3.jpeg",
+      "/images/projects/kokiyan-beach/kokiyan-beach-4.jpeg",
+      "/images/projects/kokiyan-beach/kokiyan-beach-5.jpeg",
+      "/images/projects/kokiyan-beach/kokiyan-beach-6.jpeg",
+      "/images/projects/kokiyan-beach/kokiyan-beach-7.jpeg",
+      "/images/projects/kokiyan-beach/kokiyan-beach-8.jpeg"
     ],
     isFeatured: true,
     status: "completed"
@@ -415,10 +436,16 @@ export const PROJECTS: Project[] = [
       "تنسيق الإضاءة والأجواء الداخلية"
     ],
     description: "أجواء طعام راقية تجمع بين الجلسات المفتوحة والديكور الخشبي الدافئ المنفذ بدقة متناهية.",
-    image: "/images/projects/balcony-restaurant/balcony-restaurant-outdoor-terrace-woodwork.jpeg",
+    image: "/images/projects/balcony-restaurant/balcony-restaurant-1.jpeg",
     gallery: [
-      "/images/projects/balcony-restaurant/balcony-restaurant-outdoor-terrace-woodwork.jpeg",
-      "/images/projects/balcony-restaurant/balcony-restaurant-panoramic-glass-facade.jpeg"
+      "/images/projects/balcony-restaurant/balcony-restaurant-1.jpeg",
+      "/images/projects/balcony-restaurant/balcony-restaurant-2.jpeg",
+      "/images/projects/balcony-restaurant/balcony-restaurant-3.jpeg",
+      "/images/projects/balcony-restaurant/balcony-restaurant-4.jpeg",
+      "/images/projects/balcony-restaurant/balcony-restaurant-5.jpeg",
+      "/images/projects/balcony-restaurant/balcony-restaurant-6.jpeg",
+      "/images/projects/balcony-restaurant/balcony-restaurant-7.jpeg",
+      "/images/projects/balcony-restaurant/balcony-restaurant-8.jpeg"
     ],
     isFeatured: true,
     status: "completed"
@@ -437,7 +464,7 @@ export const PROJECTS: Project[] = [
       "تفصيل الأثاث والواجهات الزجاجية الفخمة"
     ],
     description: "مطعم بطراز كلاسيكي حديث شمل تنفيذ تفاصيل خشبية معقدة وديكورات جدارية مبهرة.",
-    image: "/images/projects/villa-fayzouza/villa-fayzouza-classical-dining-hall-interior.jpeg",
+    image: "/images/projects/villa-fayzouza/villa-fayzouza-1.jpeg",
     status: "completed"
   },
   {
@@ -454,7 +481,7 @@ export const PROJECTS: Project[] = [
       "تصنيع الكاونترات والأثاث المخصص"
     ],
     description: "تصميم وتنفيذ عصري وعملي يمزج بين متانة الاستيل ودفء الأخشاب لخدمة مرتادي المطعم بسرعة وسلاسة.",
-    image: "/images/projects/cken-restaurant/cken-restaurant-stainless-steel-service-counter.jpeg",
+    image: "/images/projects/cken-restaurant/cken-restaurant-1.jpeg",
     status: "completed"
   },
   {
@@ -471,7 +498,7 @@ export const PROJECTS: Project[] = [
       "أعمال الديكور الداخلي وتصنيع الأثاث"
     ],
     description: "إنشاء وتشطيب مطعم عائلي راقٍ في مدينة تبوك وفق أعلى مواصفات الأمان والديكور الشرقي المعاصر.",
-    image: "/images/projects/dar-biryani/dar-biryani-oriental-modern-dining-hall.jpeg",
+    image: "/images/projects/dar-biryani/dar-biryani-1.jpeg",
     status: "completed"
   },
   {
@@ -488,7 +515,7 @@ export const PROJECTS: Project[] = [
       "تفصيل وتوريد الأثاث"
     ],
     description: "مطعم إيطالي أنيق يعتمد على جماليات الخشب الطبيعي والإضاءة الدافئة.",
-    image: "/images/projects/sezione-restaurant/sezione-restaurant-italian-wood-wall-paneling.jpeg",
+    image: "/images/projects/sezione-restaurant/sezione-restaurant-1.jpeg",
     status: "completed"
   },
   {
@@ -505,7 +532,7 @@ export const PROJECTS: Project[] = [
       "تصنيع وتوزيع الأثاث المريح"
     ],
     description: "تنفيذ متناغم يعكس التراث الهندي بأسلوب عصري جذاب وراحة متناهية للزبائن.",
-    image: "/images/projects/zaikaki-indian/zaikaki-indian-ethnic-contemporary-dining.jpeg",
+    image: "/images/projects/zaikaki-indian/zaikaki-indian-1.jpeg",
     status: "completed"
   },
   {
@@ -522,7 +549,7 @@ export const PROJECTS: Project[] = [
       "الأثاث المريح والإنارة المودرن"
     ],
     description: "مقهى متميز للشباب والعائلات صمم ونفذ بأحدث أساليب التصميم الصناعي الدافئ.",
-    image: "/images/projects/ash-cafe/ash-cafe-modern-barista-concrete-counter.jpeg",
+    image: "/images/projects/ash-cafe/ash-cafe-1.jpeg",
     status: "completed"
   },
   {
@@ -539,7 +566,7 @@ export const PROJECTS: Project[] = [
       "تصنيع الأثاث والديكورات"
     ],
     description: "أحد أبرز مقاهي المدينة المنورة شمل تصميماً وتنفيذاً متكاملاً من الفكرة وحتى التسليم والتشغيل.",
-    image: "/images/projects/cb-cafe/cb-cafe-specialty-coffee-bar-fitout.jpeg",
+    image: "/images/projects/cb-cafe/cb-cafe-1.jpeg",
     status: "completed"
   },
   {
@@ -556,7 +583,7 @@ export const PROJECTS: Project[] = [
       "التشطيبات المعمارية والديكورات الخشبية"
     ],
     description: "أحدث مشاريع الضيافة الجارية في جدة لتقديم تجربة طعام استثنائية.",
-    image: "/images/projects/curry-leaf/curry-leaf-modern-indian-dining-interior.jpeg",
+    image: "/images/projects/curry-leaf/curry-leaf-1.jpeg",
     status: "in-progress"
   }
 ];
@@ -642,7 +669,7 @@ export const SERVICES = [
       "تنفيذ المستودعات والمصانع العملاقة حتى 25,000 م²"
     ],
     icon: "Building2",
-    image: "/images/projects/alrugaib-tabuk/alrugaib-tabuk-steel-structure-framework.jpeg"
+    image: "/images/projects/alrugaib-tabuk/alrugaib-tabuk-1.jpeg"
   },
   {
     id: "commercial-fitout",
@@ -672,7 +699,7 @@ export const SERVICES = [
       "مخططات تنفيذية تفصيلية (Shop Drawings) ونماذج 3D"
     ],
     icon: "UtensilsCrossed",
-    image: "/images/projects/kokiyan-beach/kokiyan-beach-panoramic-seaside-dining.jpeg"
+    image: "/images/projects/kokiyan-beach/kokiyan-beach-1.jpeg"
   },
   {
     id: "mep-industrial-flooring",
@@ -687,7 +714,7 @@ export const SERVICES = [
       "أنظمة التحكم والمراقبة والتجهيز الإداري للمستودعات"
     ],
     icon: "Wrench",
-    image: "/images/projects/alrugaib-warehouse/alrugaib-warehouse-heavy-duty-racking-epoxy.jpeg"
+    image: "/images/projects/alrugaib-warehouse/alrugaib-warehouse-1.jpeg"
   }
 ];
 

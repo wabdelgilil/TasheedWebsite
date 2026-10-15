@@ -54,26 +54,38 @@ export default function AboutPage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 text-right">
-            <div className="bg-[#fcfaf7] p-5 rounded-2xl border border-[#6d7277]/15">
-              <span className="text-xs text-[#57606a] block mb-1">الاسم التجاري المعتمد</span>
+            <div className="bg-[#fcfaf7] p-5 rounded-2xl border border-[#6d7277]/15 shadow-xs">
+              <div className="flex items-center gap-2 mb-2">
+                <span className="text-xl">🏛️</span>
+                <span className="text-xs text-[#57606a] font-bold">الاسم التجاري المعتمد</span>
+              </div>
               <span className="text-sm font-black text-[#1b2026] block">مؤسسة التشييد المختلف للمقاولات العامة</span>
               <span className="text-[11px] text-[#b88628] block mt-1 font-mono font-bold">Tasheed Unique Contracting</span>
             </div>
 
-            <div className="bg-[#fcfaf7] p-5 rounded-2xl border border-[#6d7277]/15">
-              <span className="text-xs text-[#57606a] block mb-1">السجل التجاري (وزارة التجارة)</span>
+            <div className="bg-[#fcfaf7] p-5 rounded-2xl border border-[#6d7277]/15 shadow-xs">
+              <div className="flex items-center gap-2 mb-2">
+                <span className="text-xl">📜</span>
+                <span className="text-xs text-[#57606a] font-bold">السجل التجاري (وزارة التجارة)</span>
+              </div>
               <span className="text-lg font-black text-[#d7a138] font-mono block" dir="ltr">{COMPANY_INFO.crNumber}</span>
               <span className="text-[11px] text-[#57606a] block mt-1">المركز الرئيسي: جدة</span>
             </div>
 
-            <div className="bg-[#fcfaf7] p-5 rounded-2xl border border-[#6d7277]/15">
-              <span className="text-xs text-[#57606a] block mb-1">الرقم الضريبي (هيئة الزكاة)</span>
+            <div className="bg-[#fcfaf7] p-5 rounded-2xl border border-[#6d7277]/15 shadow-xs">
+              <div className="flex items-center gap-2 mb-2">
+                <span className="text-xl">📑</span>
+                <span className="text-xs text-[#57606a] font-bold">الرقم الضريبي (هيئة الزكاة)</span>
+              </div>
               <span className="text-sm font-black text-[#d7a138] font-mono block" dir="ltr">{COMPANY_INFO.vatNumber}</span>
               <span className="text-[11px] text-[#57606a] block mt-1">مسجل وضريبة قيمة مضافة فعالة</span>
             </div>
 
-            <div className="bg-[#fcfaf7] p-5 rounded-2xl border border-[#6d7277]/15">
-              <span className="text-xs text-[#57606a] block mb-1">الرقم الوطني الموحد</span>
+            <div className="bg-[#fcfaf7] p-5 rounded-2xl border border-[#6d7277]/15 shadow-xs">
+              <div className="flex items-center gap-2 mb-2">
+                <span className="text-xl">🇸🇦</span>
+                <span className="text-xs text-[#57606a] font-bold">الرقم الوطني الموحد</span>
+              </div>
               <span className="text-lg font-black text-[#1b2026] font-mono block" dir="ltr">{COMPANY_INFO.nationalId}</span>
               <span className="text-[11px] text-emerald-700 font-bold block mt-1">مصنف ومعتمد من &quot;منشآت&quot;</span>
             </div>

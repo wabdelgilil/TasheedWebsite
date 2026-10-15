@@ -8,7 +8,7 @@ import { COMPANY_INFO } from "@/data/projects";
 
 const HERO_SLIDES = [
   {
-    image: "/images/projects/sheraton-resort/sheraton-obhur-hotel-suite-custom-woodwork.jpeg",
+    image: "/images/projects/sheraton-resort/sheraton-resort-1.jpeg",
     title: "منتجع شيراتون أبحر الشمالية",
     subtitle: "فخامة الضيافة العالمية والأعمال الخشبية الفندقية الحصرية",
     location: "جدة - أبحر",
@@ -16,7 +16,7 @@ const HERO_SLIDES = [
     tag: "ضيافة فاخرة"
   },
   {
-    image: "/images/projects/kokiyan-beach/kokiyan-beach-panoramic-seaside-dining.jpeg",
+    image: "/images/projects/kokiyan-beach/kokiyan-beach-1.jpeg",
     title: "مطعم وكافيه شاطئ كويكان",
     subtitle: "إطلالة بانورامية ساحلية ساحرة مع مطابخ وغرف تبريد مركزية",
     location: "جدة - الواجهة البحرية",
@@ -24,7 +24,7 @@ const HERO_SLIDES = [
     tag: "تجهيز مطاعم متكامل"
   },
   {
-    image: "/images/projects/ashley-jeddah/ashley-jeddah-luxury-furniture-showroom.jpeg",
+    image: "/images/projects/ashley-jeddah/ashley-jeddah-1.jpeg",
     title: "معرض آشلي للأثاث المنزلي",
     subtitle: "إعادة تأهيل وتشطيب شامل على مساحة 4,600 م² بأرقى المعايير",
     location: "جدة - طريق الملك",
@@ -32,7 +32,7 @@ const HERO_SLIDES = [
     tag: "تجزئة ومعارض كبرى"
   },
   {
-    image: "/images/projects/balcony-restaurant/balcony-restaurant-outdoor-terrace-woodwork.jpeg",
+    image: "/images/projects/balcony-restaurant/balcony-restaurant-1.jpeg",
     title: "مطعم وتراس بلكونة",
     subtitle: "أجواء دافئة وتصنيع أثاث وديكورات خشبية مخصصة بالكامل",
     location: "جدة - الروضة",
@@ -40,7 +40,7 @@ const HERO_SLIDES = [
     tag: "مطاعم وكافيهات"
   },
   {
-    image: "/images/projects/alrugaib-tabuk/alrugaib-tabuk-facade-main-entrance.jpeg",
+    image: "/images/projects/alrugaib-tabuk/alrugaib-tabuk-1.jpeg",
     title: "صرح مفروشات الرقيب",
     subtitle: "صالة عرض تجارية عملاقة بمساحة 4,000 م² مع دور ميزانين",
     location: "تبوك - المملكة العربية السعودية",

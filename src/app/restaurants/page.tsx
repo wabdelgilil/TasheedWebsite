@@ -158,7 +158,7 @@ export default function RestaurantsPage() {
                   <div className="space-y-1.5 pt-3 border-t border-[#6d7277]/15">
                     {p.scope.map((item, i) => (
                       <div key={i} className="text-xs text-[#57606a] flex items-center gap-2">
-                        <CheckCircle2 className="w-3.5 h-3.5 text-[#d7a138] shrink-0" />
+                        <span className="text-[#d7a138] font-bold text-xs">✨</span>
                         <span>{item}</span>
                       </div>
                     ))}

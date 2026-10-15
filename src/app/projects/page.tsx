@@ -22,11 +22,11 @@ function ProjectsContent() {
   }, [clientParam]);
 
   const categories = [
-    { id: "all", label: "كافة المشاريع" },
-    { id: "mega-commercial", label: "معارض ومتاجر كبرى" },
-    { id: "restaurants-cafes", label: "مطاعم وكافيهات" },
-    { id: "industrial-warehouses", label: "مستودعات ومصانع" },
-    { id: "corporate-administrative", label: "مقرات ومكاتب إدارية" },
+    { id: "all", label: "كافة المشاريع", emoji: "🏢" },
+    { id: "mega-commercial", label: "معارض ومتاجر كبرى", emoji: "🛋️" },
+    { id: "restaurants-cafes", label: "مطاعم وكافيهات", emoji: "🍽️" },
+    { id: "industrial-warehouses", label: "مستودعات ومصانع", emoji: "🏗️" },
+    { id: "corporate-administrative", label: "مقرات ومكاتب إدارية", emoji: "💼" },
   ];
 
   const filtered = PROJECTS.filter((p) => {
@@ -46,9 +46,9 @@ function ProjectsContent() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Page Header */}
         <div className="text-center max-w-3xl mx-auto mb-12">
-          <div className="inline-flex items-center gap-2 text-[#d7a138] text-xs font-bold uppercase tracking-wider mb-2">
-            <Building className="w-4 h-4" />
-            سجل الإنجازات وسابقة الأعمال
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#d7a138]/10 border border-[#d7a138]/30 text-[#b88628] text-xs font-bold uppercase tracking-wider mb-2">
+            <span>🏆</span>
+            <span>سجل الإنجازات وسابقة الأعمال</span>
           </div>
           <h1 className="text-3xl sm:text-5xl font-black text-[#1b2026] leading-tight">
             مشاريعنا المنفذة عبر مختلف مناطق المملكة
@@ -66,13 +66,14 @@ function ProjectsContent() {
               <button
                 key={cat.id}
                 onClick={() => setSelectedCategory(cat.id)}
-                className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer ${
+                className={`px-3.5 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer flex items-center gap-2 ${
                   selectedCategory === cat.id
                     ? "bg-[#d7a138] text-white shadow-md shadow-[#d7a138]/20"
                     : "bg-[#f5f2eb] text-[#3e454f] hover:bg-[#eae5dc]"
                 }`}
               >
-                {cat.label}
+                <span>{cat.emoji}</span>
+                <span>{cat.label}</span>
               </button>
             ))}
           </div>
@@ -158,7 +159,7 @@ function ProjectsContent() {
               <div className="p-6 flex-1 flex flex-col justify-between">
                 <div>
                   <div className="flex items-center gap-1.5 text-xs text-[#6d7277] mb-2 font-medium">
-                    <MapPin className="w-3.5 h-3.5 text-[#d7a138] shrink-0" />
+                    <span className="text-sm">📍</span>
                     <span>{project.location}</span>
                   </div>
 
@@ -181,7 +182,7 @@ function ProjectsContent() {
                     </span>
                     {project.scope.map((item, i) => (
                       <div key={i} className="text-xs text-[#3e454f] flex items-start gap-2">
-                        <CheckCircle2 className="w-3.5 h-3.5 text-[#d7a138] shrink-0 mt-0.5" />
+                        <span className="text-[#d7a138] text-xs font-bold mt-0.5">✨</span>
                         <span>{item}</span>
                       </div>
                     ))}
@@ -260,7 +261,7 @@ function ProjectsContent() {
                 <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-[#3e454f]">
                   {selectedProject.scope.map((s, i) => (
                     <li key={i} className="flex items-center gap-2">
-                      <CheckCircle2 className="w-3.5 h-3.5 text-[#d7a138] shrink-0" />
+                      <span className="text-[#d7a138] font-bold">✨</span>
                       <span>{s}</span>
                     </li>
                   ))}

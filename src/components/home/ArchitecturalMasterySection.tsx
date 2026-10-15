@@ -30,7 +30,7 @@ export default function ArchitecturalMasterySection() {
       title: "سحر الإضاءة وتوزيع الأجواء (Lighting & Mood)",
       quote: "الإضاءة المدروسة هي التي تصنع رغبة الزبون في البقاء والتقاط الصور ومشاركة تجربته.",
       description: "لا نوزع وحدات الإنارة عشوائياً، بل نهندس درجات الدفء، وزوايا الإسقاط، والظلال المريحة التي تُبرز تفاصيل الديكور وتمنح الجالسين شعوراً فورياً بالاسترخاء والفخامة.",
-      image: "/images/projects/balcony-restaurant/balcony-restaurant-outdoor-terrace-woodwork.jpeg",
+      image: "/images/projects/balcony-restaurant/balcony-restaurant-1.jpeg",
       tag: "تجربة بصرية مريحة"
     },
     {
@@ -39,7 +39,7 @@ export default function ArchitecturalMasterySection() {
       title: "الحرفية الخشبية المخصصة (Bespoke Joinery)",
       quote: "هوية مكانك لا يمكن أن تأتي من أثاث تجاري مكرر يشاهده زبونك في كل مكان.",
       description: "نمتلك ورش تصنيع متقدمة لتفصيل الكاونترات، بارات المشروبات، طاولات الطعام الفاخرة، والبانوهات الجدارية بأخشاب طبيعية معالجة تدوم لسنوات وتمنح مشروعك بصمة حصرية لا تُقلد.",
-      image: "/images/projects/sheraton-resort/sheraton-obhur-hotel-suite-custom-woodwork.jpeg",
+      image: "/images/projects/sheraton-resort/sheraton-resort-1.jpeg",
       tag: "أخشاب وتصاميم حصرية"
     },
     {
@@ -48,7 +48,7 @@ export default function ArchitecturalMasterySection() {
       title: "انسيابية الحركة والتشغيل (Spatial Flow & Ergonomics)",
       quote: "المعادلة الذهبية: أقصى طاقة استيعابية للمقاعد مع أقصى راحة وخصوصية للزبائن.",
       description: "ندرس مسارات حركة الزبائن من لحظة دخولهم حتى مغادرتهم، ونفصلها بذكاء عن مسارات طاقم الخدمة لضمان سرعة تلبية الطلبات دون إزعاج أو احتكاك بصري غير مرغوب.",
-      image: "/images/projects/kokiyan-beach/kokiyan-beach-panoramic-seaside-dining.jpeg",
+      image: "/images/projects/kokiyan-beach/kokiyan-beach-1.jpeg",
       tag: "كفاءة تشغيلية ترفع الأرباح"
     },
     {
@@ -57,7 +57,7 @@ export default function ArchitecturalMasterySection() {
       title: "الهندسة الخفية والراحة الصامتة (Invisible Comfort)",
       quote: "أعظم إنجاز هندسي هو الراحة التي يشعر بها زبونك دون أن يرى كواليسها.",
       description: "تكييف مركزي متوازن دون تيارات باردة مزعجة، عزل صوتي متطور يتيح الأحاديث الخاصة، وشبكات شفط هواء للمطابخ تسحب 100% من الأبخرة دون تسريب ذرة رائحة واحدة لصالة الضيوف.",
-      image: "/images/projects/alrugaib-tabuk/alrugaib-tabuk-facade-main-entrance.jpeg",
+      image: "/images/projects/alrugaib-tabuk/alrugaib-tabuk-1.jpeg",
       tag: "أمان وهدوء متناهٍ"
     }
   ];
