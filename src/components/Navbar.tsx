@@ -5,7 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { Menu, X, Phone, ArrowLeft } from "lucide-react";
-import { COMPANY_INFO } from "@/data/projects";
+import { COMPANY_INFO } from "@/data";
 
 const NAV_LINKS = [
   { href: "/", label: "الرئيسية" },

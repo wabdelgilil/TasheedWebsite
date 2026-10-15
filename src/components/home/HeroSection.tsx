@@ -4,7 +4,8 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowLeft, MessageCircle, ChevronRight, ChevronLeft, MapPin } from "lucide-react";
-import { COMPANY_INFO } from "@/data/projects";
+import { COMPANY_INFO } from "@/data";
+import SectionBadge from "@/components/ui/SectionBadge";
 
 const HERO_SLIDES = [
   {
@@ -81,11 +82,9 @@ export default function HeroSection() {
           
           {/* Right Column: Alluring Copy & Narrative (7 cols) */}
           <div className="lg:col-span-7 text-right">
-            {/* Elegant Tag */}
-            <div className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-[#d7a138]/10 border border-[#d7a138]/30 text-[#b88628] text-xs sm:text-sm font-bold mb-6">
-              <span className="w-2 h-2 rounded-full bg-[#d7a138] inline-block"></span>
-              <span>دار التصميم والتنفيذ الإنشائي الفاخر | مؤسسة التشييد</span>
-            </div>
+            <SectionBadge className="mb-6 text-xs sm:text-sm">
+              دار التصميم والتنفيذ الإنشائي الفاخر | مؤسسة التشييد
+            </SectionBadge>
 
             {/* Irresistible Headline */}
             <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black text-[#1b2026] leading-[1.2] tracking-tight">

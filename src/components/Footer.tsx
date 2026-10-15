@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Phone, Mail, MapPin } from "lucide-react";
-import { COMPANY_INFO } from "@/data/projects";
+import { COMPANY_INFO } from "@/data";
 
 export default function Footer() {
   return (

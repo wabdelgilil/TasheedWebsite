@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { CLIENTS } from "@/data/projects";
+import { CLIENTS } from "@/data";
 
 export default function ClientsSection() {
   return (

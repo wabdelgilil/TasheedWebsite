@@ -1,7 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
-import { COMPANY_INFO } from "@/data/projects";
+import { COMPANY_INFO } from "@/data";
+import SectionBadge from "@/components/ui/SectionBadge";
 
 export default function AccreditationsSection() {
   return (
@@ -10,10 +11,9 @@ export default function AccreditationsSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Text Content */}
           <div className="text-right">
-            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#d7a138]/10 border border-[#d7a138]/30 text-[#b88628] text-xs font-bold uppercase tracking-wider mb-3">
-              <span>🛡️</span>
-              <span>الموثوقية والامتثال النظامي</span>
-            </div>
+            <SectionBadge icon={<span>🛡️</span>}>
+              الموثوقية والامتثال النظامي
+            </SectionBadge>
             <h2 className="text-2xl sm:text-4xl font-black text-[#1b2026] leading-tight">
               اعتمادات رسمية وتراخيص موثقة تضمن أعلى مستويات الأمان الاستثماري
             </h2>

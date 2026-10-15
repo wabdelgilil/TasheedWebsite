@@ -1,0 +1,68 @@
+import { Client } from "@/types";
+
+export const CLIENTS: Client[] = [
+  {
+    name: "Ashley HomeStore",
+    nameAr: "آشلي للأثاث المنزلي",
+    logo: "/images/clients/ashley.png",
+    category: "Retail",
+    desc: "صالات عرض رئيسية في جدة ومكة والدمام",
+    query: "Ashley",
+  },
+  {
+    name: "Al Rugaib Furniture",
+    nameAr: "مفروشات الرقيب",
+    logo: "/images/clients/alrugaib.svg",
+    category: "Retail",
+    desc: "معارض عملاقة ومستودعات مركزية",
+    query: "Al Rugaib",
+  },
+  {
+    name: "Sheraton Obhur Resort",
+    nameAr: "منتجع شيراتون أبحر",
+    logo: "/images/clients/sheraton.svg",
+    category: "Hospitality",
+    desc: "أعمال خشبية فندقية وأثاث راقٍ",
+    query: "Sheraton",
+  },
+  {
+    name: "Garmin KSA",
+    nameAr: "جارمن السعودية",
+    logo: "/images/clients/garmin.svg",
+    category: "Tech",
+    desc: "معرض تجاري ومقر إقليمي",
+    query: "Garmin",
+  },
+  {
+    name: "Eyewa",
+    nameAr: "شركة أيوا للنظارات",
+    logo: "/images/clients/eyewa.svg",
+    category: "Optics",
+    desc: "مقر رئيسي ومستودعات ومعارض بالمولات",
+    query: "Eyewa",
+  },
+  {
+    name: "Coastline LLC",
+    nameAr: "مطعم وكافيه شاطئ كويكان",
+    logo: "/images/clients/coastline.svg",
+    category: "Hospitality",
+    desc: "شراكة استراتيجية في مشاريع الضيافة",
+    query: "Coastline",
+  },
+  {
+    name: "Al Sannat Luggage",
+    nameAr: "الصنات للحقائب",
+    logo: "/images/clients/alsannat.svg",
+    category: "Retail",
+    desc: "متاجر تجزئة متطورة",
+    query: "Al Sannat",
+  },
+  {
+    name: "BME Engineering",
+    nameAr: "بروج المحترف الهندسية",
+    logo: "/images/clients/bme.svg",
+    category: "Consulting",
+    desc: "مقرات استشارية هندسية",
+    query: "BME",
+  },
+];

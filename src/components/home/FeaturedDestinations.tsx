@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowLeft, MapPin } from "lucide-react";
+import SectionBadge from "@/components/ui/SectionBadge";
 
 export default function FeaturedDestinations() {
   const destinations = [
@@ -58,10 +59,9 @@ export default function FeaturedDestinations() {
         {/* Section Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
           <div className="text-right max-w-2xl">
-            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#d7a138]/10 border border-[#d7a138]/30 text-[#b88628] text-xs font-bold uppercase tracking-wider mb-3">
-              <span>🏛️</span>
-              <span>وجهات شيدناها على أرض الواقع</span>
-            </div>
+            <SectionBadge icon={<span>🏛️</span>}>
+              وجهات شيدناها على أرض الواقع
+            </SectionBadge>
             <h2 className="text-2xl sm:text-4xl lg:text-5xl font-black text-[#1b2026] leading-tight">
               أعمالنا تتحدث: مساحات تنبض بالحياة والإبهار
             </h2>

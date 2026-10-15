@@ -50,3 +50,16 @@
 - [x] اكتمال الـ `npm run build` بنسبة 100% وبدون أي أخطاء (Generating static pages 9/9).
 - [x] جاهزية مستودع Git محلي بفرع `main` وربطه بالـ `origin` في GitHub (`https://github.com/wabdelgilil/TasheedWebsite`).
 - [x] تنفيذ الـ `git push` ورفع التحديثات بنجاح إلى GitHub على فرع `main`.
+
+### 9. إعادة الهيكلة الشاملة وتفكيك المكونات (Comprehensive Code Refactoring)
+- [x] **فصل وتنظيم طبقة البيانات (Data Layer):**
+  - إنشاء `src/types/index.ts` لكافة الـ Interfaces (`Project`, `Client`, `Service`, `CompanyInfo`).
+  - تفكيك ملف البيانات الكبير إلى ملفات تخصصية: `src/data/clients.ts`، `src/data/services.ts`، `src/data/company.ts`، و`src/data/projects.ts`.
+  - إنشاء ملف تصدير مركزي `src/data/index.ts` مع الحفاظ على التوافق الكامل مع أي استيرادات سابقة.
+- [x] **تفكيك المكونات المعقدة (Modular Components):**
+  - تجزئة صفحة المشاريع (`projects/page.tsx`) واستخراج `ProjectCard.tsx` و `ProjectGalleryModal.tsx` و `ProjectFilterBar.tsx` داخل `src/components/projects/`.
+  - تجزئة صفحة الخدمات (`services/page.tsx`) واستخراج `ServiceCard.tsx` داخل `src/components/services/`.
+  - إنشاء مكون الشارات المشتركة القابل لإعادة الاستخدام `SectionBadge.tsx` داخل `src/components/ui/` وتعميمه على كافة الصفحات.
+  - إزالة المكونات القديمة غير المستخدمة (`FeaturedProjects.tsx` و `ServicesSection.tsx`) وتنظيف الكود من أي بقايا داكنة.
+- [x] **التحقق من سلامة البناء:** اجتياز `npm run build` بنسبة 100% (Generating static pages 9/9) بدون أي خطأ برمجي.
+

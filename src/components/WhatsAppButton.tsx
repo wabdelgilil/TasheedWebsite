@@ -1,7 +1,7 @@
 "use client";
 
 import { MessageCircle } from "lucide-react";
-import { COMPANY_INFO } from "@/data/projects";
+import { COMPANY_INFO } from "@/data";
 
 export default function WhatsAppButton() {
   const whatsappMessage = encodeURIComponent(

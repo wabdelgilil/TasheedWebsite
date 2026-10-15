@@ -1,7 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ShieldCheck, Building, Target, Compass, ArrowLeft } from "lucide-react";
-import { COMPANY_INFO } from "@/data/projects";
+import { COMPANY_INFO } from "@/data";
+import SectionBadge from "@/components/ui/SectionBadge";
 
 export default function AboutPage() {
   const pillars = [
@@ -29,10 +30,9 @@ export default function AboutPage() {
     <div className="pt-28 pb-20 bg-[#fcfaf7] min-h-screen">
       {/* Hero Header */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center max-w-4xl mb-16">
-        <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#d7a138]/10 border border-[#d7a138]/30 text-[#b88628] text-xs font-bold uppercase tracking-wider mb-3">
-          <Building className="w-4 h-4 text-[#d7a138]" />
-          <span>عن مؤسسة التشييد المختلف للمقاولات</span>
-        </div>
+        <SectionBadge icon={<Building className="w-4 h-4 text-[#d7a138]" />}>
+          عن مؤسسة التشييد المختلف للمقاولات
+        </SectionBadge>
         <h1 className="text-3xl sm:text-5xl font-black text-[#1b2026] leading-tight">
           شريكك الهندسي الموثوق لتنفيذ المشاريع الكبرى بأعلى معايير الإتقان
         </h1>
@@ -96,10 +96,9 @@ export default function AboutPage() {
       {/* Pillars */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-20">
         <div className="text-center max-w-2xl mx-auto mb-12">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#d7a138]/10 text-[#b88628] text-xs font-bold mb-2">
-            <Target className="w-3.5 h-3.5 text-[#d7a138]" />
-            <span>ركائز النجاح التشغيلي</span>
-          </div>
+          <SectionBadge icon={<Target className="w-3.5 h-3.5 text-[#d7a138]" />}>
+            ركائز النجاح التشغيلي
+          </SectionBadge>
           <h2 className="text-2xl sm:text-3xl font-black text-[#1b2026]">
             منهجيتنا في العمل والإنجاز
           </h2>

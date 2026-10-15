@@ -1,16 +1,16 @@
 import QuickContactSection from "@/components/home/QuickContactSection";
 import { Mail, Phone, MapPin, Clock } from "lucide-react";
-import { COMPANY_INFO } from "@/data/projects";
+import { COMPANY_INFO } from "@/data";
+import SectionBadge from "@/components/ui/SectionBadge";
 
 export default function ContactPage() {
   return (
     <div className="pt-28 pb-20 bg-[#fcfaf7] min-h-screen">
       {/* Header */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center max-w-4xl mb-12">
-        <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#d7a138]/10 border border-[#d7a138]/30 text-[#b88628] text-xs font-bold uppercase tracking-wider mb-3">
-          <Mail className="w-4 h-4 text-[#d7a138]" />
-          <span>تواصل مع قيادة التشييد الهندسي</span>
-        </div>
+        <SectionBadge icon={<Mail className="w-4 h-4 text-[#d7a138]" />}>
+          تواصل مع قيادة التشييد الهندسي
+        </SectionBadge>
         <h1 className="text-3xl sm:text-5xl font-black text-[#1b2026] leading-tight">
           نحن هنا لبدء مشروعك القادم وتلبية استفساراتك الهندسية
         </h1>

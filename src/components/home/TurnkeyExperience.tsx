@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { MessageSquare, ArrowLeft } from "lucide-react";
-import { COMPANY_INFO } from "@/data/projects";
+import { COMPANY_INFO } from "@/data";
+import SectionBadge from "@/components/ui/SectionBadge";
 
 export default function TurnkeyExperience() {
   const benefits = [
@@ -36,10 +37,9 @@ export default function TurnkeyExperience() {
         <div className="bg-white rounded-3xl border-2 border-[#d7a138]/40 p-8 sm:p-14 shadow-xl relative">
           
           <div className="max-w-3xl text-right mb-14">
-            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#d7a138]/15 border border-[#d7a138]/30 text-[#b88628] text-xs font-bold uppercase tracking-wider mb-3">
-              <span>🛡️</span>
-              <span>ضمان الاستثمار وراحة البال</span>
-            </div>
+            <SectionBadge icon={<span>🛡️</span>}>
+              ضمان الاستثمار وراحة البال
+            </SectionBadge>
             <h2 className="text-2xl sm:text-4xl font-black text-[#1b2026] leading-tight">
               تجربة تسليم المفتاح الهادئة: أنت ترسم الرؤية ونحن نتكفل بكل التفاصيل
             </h2>
