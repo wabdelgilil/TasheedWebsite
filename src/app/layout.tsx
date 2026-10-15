@@ -32,8 +32,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ar" dir="rtl" className={`${cairo.variable}`}>
-      <body className="min-h-screen bg-[#fcfaf7] text-[#22272e] antialiased selection:bg-[#d7a138] selection:text-white">
+    <html lang="ar" dir="rtl" className={`${cairo.variable}`} suppressHydrationWarning>
+      <body
+        suppressHydrationWarning
+        className="min-h-screen bg-[#fcfaf7] text-[#22272e] antialiased selection:bg-[#d7a138] selection:text-white"
+      >
         <Navbar />
         <main className="min-h-[calc(100vh-200px)]">
           {children}
