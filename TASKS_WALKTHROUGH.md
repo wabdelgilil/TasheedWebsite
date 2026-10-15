@@ -49,4 +49,4 @@
 - [x] معالجة خطأ الـ Hydration Mismatch الناتج عن إضافات المتصفح (`suppressHydrationWarning`).
 - [x] اكتمال الـ `npm run build` بنسبة 100% وبدون أي أخطاء (Generating static pages 9/9).
 - [x] جاهزية مستودع Git محلي بفرع `main` وربطه بالـ `origin` في GitHub (`https://github.com/wabdelgilil/TasheedWebsite`).
-- [ ] تنفيذ الـ `git push` يدوياً من قبلك (امتثالاً للقاعدة رقم 6): `git push -u origin main`.
+- [x] تنفيذ الـ `git push` ورفع التحديثات بنجاح إلى GitHub على فرع `main`.
