@@ -92,23 +92,10 @@ export default function HeroSection() {
           
           {/* Right Column: Alluring Copy & Narrative (7 cols) */}
           <div className="lg:col-span-7 text-right">
-            {/* Presidential Brand Crest */}
-            <div className="flex flex-wrap items-center gap-3 sm:gap-4 mb-6">
-              <div className="relative h-12 w-36 sm:h-14 sm:w-44 shrink-0 transition-transform hover:scale-105">
-                <Image
-                  src="/images/logo/logo_full_hd.png"
-                  alt="شعار مؤسسة التشييد المختلف"
-                  fill
-                  sizes="(max-width: 640px) 144px, 176px"
-                  className="object-contain"
-                  priority
-                />
-              </div>
-              <div className="h-8 w-px bg-[#d7a138]/40 hidden sm:block" />
-              <SectionBadge className="mb-0 text-xs sm:text-sm">
-                دار التصميم والتنفيذ الإنشائي الفاخر
-              </SectionBadge>
-            </div>
+            {/* Section Badge */}
+            <SectionBadge className="mb-6">
+              دار التصميم والتنفيذ الإنشائي الفاخر
+            </SectionBadge>
 
             {/* Irresistible Headline */}
             <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black text-[#1b2026] leading-[1.2] tracking-tight">
