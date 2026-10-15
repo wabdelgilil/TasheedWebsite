@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 80" width="100%" height="100%">
+  <g transform="translate(10, 12)">
+    <!-- BME Geometric Triangle Logo -->
+    <polygon points="5,48 25,8 45,48" fill="none" stroke="#d7a138" stroke-width="4"/>
+    <line x1="15" y1="36" x2="35" y2="36" stroke="#d7a138" stroke-width="3"/>
+    <text x="58" y="34" font-family="'Segoe UI', Arial, sans-serif" font-weight="900" font-size="22" letter-spacing="2" fill="#1b2026">BME</text>
+    <text x="58" y="50" font-family="'Segoe UI', Arial, sans-serif" font-size="11" font-weight="bold" fill="#6d7277">بروج المحترف للاستشارات الهندسية</text>
+  </g>
+</svg>

@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --profile-gold: #d7a138;
+    --profile-gold-light: #dbaa4d;
+    --profile-gold-dark: #b88628;
+    --profile-slate: #6d7277;
+    --profile-slate-dark: #3a3f45;
+    --profile-slate-light: #8e9398;
+    --profile-bg: #fcfaf7;
+    --profile-card: #ffffff;
+    --profile-text: #22272e;
+    --profile-text-muted: #57606a;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    direction: rtl;
+  }
+
+  body {
+    background-color: #fcfaf7;
+    color: #22272e;
+    font-family: var(--font-cairo), sans-serif;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom scrollbar matching profile gold & slate */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1ede6;
+}
+::-webkit-scrollbar-thumb {
+  background: #d7a138;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b88628;
+}
+
+/* Profile geometric patterns */
+.profile-dots-bg {
+  background-image: radial-gradient(#6d7277 1px, transparent 1px);
+  background-size: 20px 20px;
+  opacity: 0.12;
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #b88628 0%, #d7a138 50%, #dbaa4d 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-gradient-bg {
+  background: linear-gradient(135deg, #d7a138 0%, #dbaa4d 100%);
+}
