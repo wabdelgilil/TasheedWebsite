@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import StickyExecutiveCTA from "@/components/ui/StickyExecutiveCTA";
+import { Analytics } from "@vercel/analytics/next";
 
 const cairo = Cairo({
   subsets: ["arabic", "latin"],
@@ -43,6 +44,7 @@ export default function RootLayout({
         </main>
         <Footer />
         <StickyExecutiveCTA />
+        <Analytics />
       </body>
     </html>
   );
