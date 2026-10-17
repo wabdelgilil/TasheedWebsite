@@ -2,6 +2,7 @@ import Link from "next/link";
 import { MessageSquare, ArrowLeft } from "lucide-react";
 import { COMPANY_INFO } from "@/data";
 import SectionBadge from "@/components/ui/SectionBadge";
+import BeforeAfterSlider from "@/components/ui/BeforeAfterSlider";
 
 export default function TurnkeyExperience() {
   const benefits = [
@@ -67,6 +68,26 @@ export default function TurnkeyExperience() {
             ))}
           </div>
 
+          {/* Before & After Interactive Showcase */}
+          <div className="mb-14 pt-6 border-t border-[#6d7277]/15">
+            <div className="text-right mb-6">
+              <span className="text-xs font-bold text-[#d7a138] uppercase tracking-wider block mb-1">
+                برهان الإتقان المعماري على أرض الواقع
+              </span>
+              <h3 className="text-xl sm:text-2xl font-black text-[#1b2026]">
+                شاهد الفارق: من هيكل الميزانين الفولاذي إلى صرح مفروشات الرقيب المتلألئ
+              </h3>
+            </div>
+            <BeforeAfterSlider
+              beforeImage="/images/projects/alrugaib-tabuk/alrugaib-tabuk-steel-mezzanine-structural-framework.jpeg"
+              afterImage="/images/projects/alrugaib-tabuk/alrugaib-tabuk-mezzanine-panoramic-showroom-view.jpeg"
+              beforeLabel="مرحلة الهيكل والتأسيس الإنشائي"
+              afterLabel="الصرح التجاري بعد التسليم النهائي"
+              title="صرح مفروشات الرقيب - فرع تبوك (4,000 م²)"
+              subtitle="تنفيذ كامل للهيكل، الميزانين، والتشطيب الداخلي الفاخر"
+            />
+          </div>
+
           {/* Action Strip */}
           <div className="pt-8 border-t border-[#6d7277]/15 flex flex-col sm:flex-row items-center justify-between gap-6">
             <div className="text-right">
@@ -77,7 +98,7 @@ export default function TurnkeyExperience() {
             <div className="flex items-center gap-4 w-full sm:w-auto">
               <Link
                 href="/contact"
-                className="w-full sm:w-auto px-7 py-3.5 rounded-xl font-bold text-xs sm:text-sm text-white bg-gradient-to-r from-[#d7a138] to-[#dbaa4d] hover:from-[#c48f2b] hover:to-[#d7a138] shadow-md shadow-[#d7a138]/20 transition-all text-center cursor-pointer"
+                className="w-full sm:w-auto px-7 py-3.5 rounded-xl font-black text-xs sm:text-sm text-[#1b2026] bg-gradient-to-r from-[#d7a138] to-[#dbaa4d] hover:brightness-105 shadow-md shadow-[#d7a138]/20 transition-all text-center cursor-pointer"
               >
                 <span>تواصل معنا لمناقشة مشروعك</span>
               </Link>

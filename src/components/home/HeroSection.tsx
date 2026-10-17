@@ -6,6 +6,7 @@ import Link from "next/link";
 import { ArrowLeft, MessageCircle, ChevronRight, ChevronLeft, MapPin } from "lucide-react";
 import { COMPANY_INFO } from "@/data";
 import SectionBadge from "@/components/ui/SectionBadge";
+import AnimatedCounter from "@/components/ui/AnimatedCounter";
 
 const HERO_SLIDES = [
   {
@@ -134,13 +135,17 @@ export default function HeroSection() {
             {/* Reassurance Metrics */}
             <div className="mt-12 pt-6 border-t border-[#6d7277]/15 grid grid-cols-3 gap-4 max-w-xl">
               <div>
-                <div className="text-xl sm:text-3xl font-black text-[#d7a138] font-mono">100%</div>
+                <div className="text-xl sm:text-3xl font-black text-[#d7a138] font-mono">
+                  <AnimatedCounter target={100} duration={1.8} suffix="%" />
+                </div>
                 <div className="text-xs sm:text-sm font-bold text-[#1b2026] mt-0.5">تسليم مفتاح متكامل</div>
                 <div className="text-[11px] text-[#6d7277]">من المخطط حتى التشغيل</div>
               </div>
 
               <div>
-                <div className="text-xl sm:text-3xl font-black text-[#d7a138] font-mono">+50,000 م²</div>
+                <div className="text-xl sm:text-3xl font-black text-[#d7a138] font-mono">
+                  <AnimatedCounter target={50000} duration={2} prefix="+" suffix=" م²" formatCommas={true} />
+                </div>
                 <div className="text-xs sm:text-sm font-bold text-[#1b2026] mt-0.5">مساحات صُممت ونُفذت</div>
                 <div className="text-[11px] text-[#6d7277]">صروح تجارية ومطاعم</div>
               </div>

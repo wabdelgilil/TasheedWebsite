@@ -2,6 +2,7 @@ import { SERVICES } from "@/data/services";
 import { Wrench } from "lucide-react";
 import SectionBadge from "@/components/ui/SectionBadge";
 import ServiceCard from "@/components/services/ServiceCard";
+import TurnkeyFlowDiagram from "@/components/ui/TurnkeyFlowDiagram";
 
 export default function ServicesPage() {
   return (
@@ -17,6 +18,11 @@ export default function ServicesPage() {
         <p className="mt-4 text-[#57606a] text-base sm:text-lg leading-relaxed">
           نقدم حلولاً هندسية تغطي دورة حياة المشروع كاملة، من الدراسات الميدانية والتأسيس الإنشائي الثقيل، وحتى الديكورات المعمارية الدقيقة وتجهيز المرافق وفق أعلى المعايير.
         </p>
+      </div>
+
+      {/* Turnkey Execution Process Blueprint */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-20">
+        <TurnkeyFlowDiagram />
       </div>
 
       {/* Services List Detailed */}
