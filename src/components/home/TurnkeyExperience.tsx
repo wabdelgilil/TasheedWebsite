@@ -98,19 +98,10 @@ export default function TurnkeyExperience() {
             <div className="flex items-center gap-4 w-full sm:w-auto">
               <Link
                 href="/contact"
-                className="w-full sm:w-auto px-7 py-3.5 rounded-xl font-black text-xs sm:text-sm text-[#1b2026] bg-gradient-to-r from-[#d7a138] to-[#dbaa4d] hover:brightness-105 shadow-md shadow-[#d7a138]/20 transition-all text-center cursor-pointer"
+                className="w-full sm:w-auto px-8 py-3.5 rounded-xl font-black text-xs sm:text-sm text-[#1b2026] bg-gradient-to-r from-[#d7a138] to-[#dbaa4d] hover:brightness-105 shadow-md shadow-[#d7a138]/20 transition-all text-center cursor-pointer"
               >
                 <span>تواصل معنا لمناقشة مشروعك</span>
               </Link>
-              <a
-                href={`${COMPANY_INFO.whatsappUrl}?text=${encodeURIComponent("مرحباً، أود استشارة حول مشروع استثماري وتسليم على المفتاح.")}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-full sm:w-auto px-6 py-3.5 rounded-xl text-xs sm:text-sm font-bold text-[#1b2026] bg-[#fcfaf7] hover:bg-white border border-[#6d7277]/25 transition-colors flex items-center justify-center gap-2 shadow-xs"
-              >
-                <MessageSquare className="w-4 h-4 text-[#25D366]" />
-                <span>واتساب</span>
-              </a>
             </div>
           </div>
 

@@ -211,6 +211,7 @@ export default function HeroSection() {
                   {HERO_SLIDES.map((_, idx) => (
                     <button
                       key={idx}
+                      suppressHydrationWarning
                       onClick={() => setCurrentSlide(idx)}
                       className={`h-2 rounded-full transition-all cursor-pointer ${
                         idx === currentSlide
@@ -224,6 +225,7 @@ export default function HeroSection() {
 
                 <div className="flex items-center gap-2">
                   <button
+                    suppressHydrationWarning
                     onClick={prevSlide}
                     className="p-1.5 rounded-full bg-[#f6f2eb] hover:bg-[#d7a138] hover:text-white transition-colors cursor-pointer text-[#1b2026]"
                     aria-label="السابق"
@@ -231,6 +233,7 @@ export default function HeroSection() {
                     <ChevronRight className="w-4 h-4" />
                   </button>
                   <button
+                    suppressHydrationWarning
                     onClick={nextSlide}
                     className="p-1.5 rounded-full bg-[#f6f2eb] hover:bg-[#d7a138] hover:text-white transition-colors cursor-pointer text-[#1b2026]"
                     aria-label="التالي"

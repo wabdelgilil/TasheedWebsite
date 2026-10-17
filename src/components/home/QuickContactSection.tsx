@@ -112,6 +112,7 @@ export default function QuickContactSection() {
                 </p>
                 <button
                   type="button"
+                  suppressHydrationWarning
                   onClick={handleWhatsAppDirect}
                   className="w-full py-3.5 px-4 rounded-xl bg-[#25D366] hover:bg-[#20ba59] text-white font-black text-sm flex items-center justify-center gap-2.5 transition-all shadow-md hover:scale-[1.02] cursor-pointer"
                 >
@@ -137,7 +138,7 @@ export default function QuickContactSection() {
                 </div>
               )}
 
-              <form onSubmit={handleSubmit} className="space-y-4">
+              <form onSubmit={handleSubmit} suppressHydrationWarning className="space-y-4">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div>
                     <label className="block text-xs font-bold text-[#1b2026] mb-1.5">
@@ -146,6 +147,7 @@ export default function QuickContactSection() {
                     <input
                       type="text"
                       required
+                      suppressHydrationWarning
                       placeholder="اسمك الكريم"
                       value={formData.name}
                       onChange={(e) => setFormData({ ...formData, name: e.target.value })}
@@ -159,6 +161,7 @@ export default function QuickContactSection() {
                     </label>
                     <input
                       type="text"
+                      suppressHydrationWarning
                       placeholder="مثال: مطعم، مجمع عيادات، متجر"
                       value={formData.company}
                       onChange={(e) => setFormData({ ...formData, company: e.target.value })}
@@ -175,6 +178,7 @@ export default function QuickContactSection() {
                     <input
                       type="tel"
                       required
+                      suppressHydrationWarning
                       placeholder="05XXXXXXXX"
                       dir="ltr"
                       value={formData.phone}
@@ -189,6 +193,7 @@ export default function QuickContactSection() {
                     </label>
                     <select
                       value={formData.city}
+                      suppressHydrationWarning
                       onChange={(e) => setFormData({ ...formData, city: e.target.value })}
                       className="w-full px-4 py-2.5 rounded-xl bg-white border border-[#6d7277]/25 text-[#1b2026] text-sm focus:outline-none focus:border-[#d7a138] transition-colors"
                     >
@@ -210,6 +215,7 @@ export default function QuickContactSection() {
                     </label>
                     <select
                       value={formData.projectType}
+                      suppressHydrationWarning
                       onChange={(e) => setFormData({ ...formData, projectType: e.target.value })}
                       className="w-full px-4 py-2.5 rounded-xl bg-white border border-[#6d7277]/25 text-[#1b2026] text-sm focus:outline-none focus:border-[#d7a138] transition-colors"
                     >
@@ -228,6 +234,7 @@ export default function QuickContactSection() {
                     </label>
                     <input
                       type="number"
+                      suppressHydrationWarning
                       placeholder="مثال: 500"
                       value={formData.area}
                       onChange={(e) => setFormData({ ...formData, area: e.target.value })}
@@ -242,6 +249,7 @@ export default function QuickContactSection() {
                   </label>
                   <textarea
                     rows={4}
+                    suppressHydrationWarning
                     placeholder="اكتب نبذة عن موقع المشروع، فكرة المكان، هل المخطط جاهز أم تحتاج تصميماً من الصفر..."
                     value={formData.details}
                     onChange={(e) => setFormData({ ...formData, details: e.target.value })}
@@ -252,6 +260,7 @@ export default function QuickContactSection() {
                 <div className="pt-2">
                   <button
                     type="submit"
+                    suppressHydrationWarning
                     className="w-full py-4 rounded-xl font-bold text-sm text-white bg-gradient-to-r from-[#d7a138] to-[#dbaa4d] hover:from-[#c48f2b] hover:to-[#d7a138] shadow-lg shadow-[#d7a138]/20 transition-all flex items-center justify-center gap-2.5 cursor-pointer"
                   >
                     <Send className="w-4 h-4" />

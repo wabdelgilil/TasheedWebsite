@@ -3,7 +3,6 @@ import { Cairo } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import WhatsAppButton from "@/components/WhatsAppButton";
 import StickyExecutiveCTA from "@/components/ui/StickyExecutiveCTA";
 
 const cairo = Cairo({
@@ -43,7 +42,6 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
-        <WhatsAppButton />
         <StickyExecutiveCTA />
       </body>
     </html>
